@@ -31,6 +31,7 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: com.paula.app
         MARKETING_VERSION: 1.0.0
         CURRENT_PROJECT_VERSION: 2
+        TARGETED_DEVICE_FAMILY: "1"
         INFOPLIST_FILE: PAULA/Resources/Info.plist
         SWIFT_STRICT_CONCURRENCY: targeted
         ENABLE_USER_SCRIPT_SANDBOXING: NO
@@ -57,7 +58,6 @@ targets:
           - CFBundleURLName: com.paula.app
             CFBundleURLSchemes:
               - paula
-        UIDeviceFamily: [1]
         UILaunchScreen: {}
         UISupportedInterfaceOrientations:
           - UIInterfaceOrientationPortrait
