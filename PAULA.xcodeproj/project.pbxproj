@@ -86,7 +86,7 @@
 		18DB35BD4FC03067301D4119 /* PAULATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAULATests.swift; sourceTree = "<group>"; };
 		1CFDAC2BC28DB71FCE7A03D8 /* RecordingDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingDetailViewModel.swift; sourceTree = "<group>"; };
 		1D835AD034C8190C3C595F1B /* TranscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionService.swift; sourceTree = "<group>"; };
-		2460B6B59FE1CD74C59CC979 /* PAULATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PAULATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2460B6B59FE1CD74C59CC979 /* PAULATests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PAULATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25F84168D5A21375230A4400 /* LLMProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMProvider.swift; sourceTree = "<group>"; };
 		2602ABF46AFA71EA5EFFDCC8 /* CueModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CueModel.swift; sourceTree = "<group>"; };
 		3B26A52BCF2CAF8A80AFD8D2 /* PAULAWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAULAWidget.swift; sourceTree = "<group>"; };
@@ -539,7 +539,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = J3P749245R;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -558,7 +557,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = J3P749245R;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
