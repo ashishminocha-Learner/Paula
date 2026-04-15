@@ -57,6 +57,7 @@ targets:
           - CFBundleURLName: com.paula.app
             CFBundleURLSchemes:
               - paula
+        UIDeviceFamily: [1]
         UILaunchScreen: {}
         UISupportedInterfaceOrientations:
           - UIInterfaceOrientationPortrait

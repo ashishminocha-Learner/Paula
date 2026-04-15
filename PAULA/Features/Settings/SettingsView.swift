@@ -13,6 +13,9 @@ struct SettingsView: View {
     @State private var groqAPIKey    = ""
 
     @State private var showDeleteAllConfirm = false
+    @State private var showDataTransferAlert = false
+    @State private var pendingKeySave: (() -> Void)? = nil
+    @AppStorage("hasAcknowledgedDataTransfer") private var hasAcknowledgedDataTransfer = false
 
     var body: some View {
         NavigationStack {
@@ -34,6 +37,18 @@ struct SettingsView: View {
             .toolbarBackground(Color.paulaNavy, for: .navigationBar)
             .toolbarColorScheme(.dark, for: .navigationBar)
             .onAppear(perform: loadKeys)
+            .alert("Data Processed in the USA", isPresented: $showDataTransferAlert) {
+                Button("I Understand") {
+                    hasAcknowledgedDataTransfer = true
+                    pendingKeySave?()
+                    pendingKeySave = nil
+                }
+                Button("Cancel", role: .cancel) {
+                    pendingKeySave = nil
+                }
+            } message: {
+                Text("When you use a third-party AI service (OpenAI, Anthropic, Groq, or Google), your audio or transcript is sent to their servers in the United States under their privacy policy. PAULA never stores this data.")
+            }
         }
     }
 
@@ -239,6 +254,12 @@ struct SettingsView: View {
     }
 
     private func saveKey(_ value: String, for key: KeychainService.Key) {
+        // Show one-time data transfer disclosure before persisting any API key
+        guard value.isEmpty || hasAcknowledgedDataTransfer else {
+            pendingKeySave = { KeychainService.set(value, for: key); UserDefaults.standard.set(value, forKey: key.rawValue) }
+            showDataTransferAlert = true
+            return
+        }
         KeychainService.set(value, for: key)
         UserDefaults.standard.set(value, forKey: key.rawValue)
     }
