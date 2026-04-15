@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		097686294FF869347BE06628 /* PAULAWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 787655D78646C485638D2349 /* PAULAWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0B9C19830348F9632CA14C06 /* RecordingDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFDAC2BC28DB71FCE7A03D8 /* RecordingDetailViewModel.swift */; };
+		0E76B54B56B9242B9D75D57E /* AudioAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DB512A67BC9CA99CD8F9A4 /* AudioAnalyzer.swift */; };
+		12E16B7748EC4325903B9360 /* SummaryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FC81D79CDA895691B5A288 /* SummaryService.swift */; };
+		15014FAAC340C688646F6B85 /* PDFExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC772FF475380AE1061320 /* PDFExporter.swift */; };
+		17DAB09E1D1BE85B35C4BC18 /* WidgetBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB3A9CEA839D955514B4FE /* WidgetBridge.swift */; };
+		1D46AA27569911D586873BF1 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CB49E4C1FB0B2A6FF57681 /* SubscriptionView.swift */; };
+		279E83EC06F4F7F03FFFEC6B /* LLMClients.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B7DE50EC29F8A5467E49AF /* LLMClients.swift */; };
+		2B39899BE3EC1BB622B054FF /* CueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2602ABF46AFA71EA5EFFDCC8 /* CueModel.swift */; };
+		2E89DB5BC2A86D309D3EDD3B /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 529FF80FD0F24114A4E9F6B0 /* ZIPFoundation */; };
+		405DA7B388137ED0A8E51518 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C147176C39CB1D89BDF77C /* LibraryView.swift */; };
+		48C97169A578A074B032E181 /* RecordingIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100987B0F9080881ADD1C2C1 /* RecordingIntents.swift */; };
+		52D3D9E10B35FCD10531F82D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B18DDBCE116E2702D728CD65 /* PrivacyInfo.xcprivacy */; };
+		5DB64602095F4FDFE7384C3E /* PAULAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE8E2DDEEDF77FC142B3D3C /* PAULAApp.swift */; };
+		762D4919FBB960B5AEA95D83 /* RecordingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AA6CA7CF493F6A7A5E252E /* RecordingDetailView.swift */; };
+		82BB6341EACF336E78F6BC72 /* WidgetBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB3A9CEA839D955514B4FE /* WidgetBridge.swift */; };
+		854C33A251337EC6081E88B7 /* ActionItemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FE5A51B721F729BA922984 /* ActionItemService.swift */; };
+		858FFD3611C94E13DEDEE9A8 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A8DAD26556DFC1C22B5D1A /* AudioEngine.swift */; };
+		98C7438BFF2D7E80D9835F5E /* SpeakerDiarizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9822D92806D103032D3356B7 /* SpeakerDiarizationService.swift */; };
+		9C01410098F19A2693FFC4EC /* DOCXExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002DCF96DD8EFF79A83DF2E /* DOCXExporter.swift */; };
+		A05474F6396087A42EB9BEAE /* LLMProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F84168D5A21375230A4400 /* LLMProvider.swift */; };
+		A4B76F227BEFBC6D4E5F19D0 /* PAULATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB35BD4FC03067301D4119 /* PAULATests.swift */; };
+		AE8A6DD33AB397C43565C50B /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78956BACE281CE755F53DBE /* RecordingView.swift */; };
+		B76F064DD12AF23C8BBF3452 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16151DDDD7F711A85B42CC58 /* KeychainService.swift */; };
+		BF93B504EF55FEE0E88069E5 /* StoreKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7352544C67E757E9A7618FD9 /* StoreKitService.swift */; };
+		BFAE451B47206DB7460CCB0B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B16EB07988A21CBF61E0E7F /* SettingsView.swift */; };
+		C07021E8B156050D0AD42D40 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC81BAE987136CB02A1120F0 /* DesignSystem.swift */; };
+		C45AC07D2E8FA6BDE7018925 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE608A449F9084406B705CF /* OnboardingView.swift */; };
+		C5720333E5DD47F4638948BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0698F13A905898791DA930 /* ContentView.swift */; };
+		D0527B97BA00D3EEFC3294E0 /* RecordingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A234C3B7D0FDF4B3B86D08E /* RecordingModel.swift */; };
+		DA25C4AAF0B9C90D41A83139 /* SummaryTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E487921251423CBEE1DE57 /* SummaryTemplate.swift */; };
+		DB64517145D4271D1A88C6A4 /* PAULAWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26A52BCF2CAF8A80AFD8D2 /* PAULAWidget.swift */; };
+		EB151DE286FAF040EAA327EF /* RecordingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0964EB45A025372A8B6045 /* RecordingViewModel.swift */; };
+		EC5464651FAFDE75BDF38F84 /* RecordingIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100987B0F9080881ADD1C2C1 /* RecordingIntents.swift */; };
+		FBC4590717AC056EC01B02F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A41AC29EC05DF169895DC0 /* Assets.xcassets */; };
+		FFCDC0B2E9C232465561C82C /* TranscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D835AD034C8190C3C595F1B /* TranscriptionService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC34EE3E07D214624BA405D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82E36508BBD58B00333C243 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37BFD288B524F5116B3523D1;
+			remoteInfo = PAULA;
+		};
+		DFC6F5825A902AC0C156D943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82E36508BBD58B00333C243 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 095A3A20AA1AE10392D6665D;
+			remoteInfo = PAULAWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E692527EC5F554DD0A80246 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				097686294FF869347BE06628 /* PAULAWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05A8DAD26556DFC1C22B5D1A /* AudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
+		0686CCCAE8E3FBF6BCF49FD8 /* PAULA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PAULA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06CB49E4C1FB0B2A6FF57681 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		07FE5A51B721F729BA922984 /* ActionItemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionItemService.swift; sourceTree = "<group>"; };
+		100987B0F9080881ADD1C2C1 /* RecordingIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingIntents.swift; sourceTree = "<group>"; };
+		16151DDDD7F711A85B42CC58 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		18DB35BD4FC03067301D4119 /* PAULATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAULATests.swift; sourceTree = "<group>"; };
+		1CFDAC2BC28DB71FCE7A03D8 /* RecordingDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingDetailViewModel.swift; sourceTree = "<group>"; };
+		1D835AD034C8190C3C595F1B /* TranscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionService.swift; sourceTree = "<group>"; };
+		2460B6B59FE1CD74C59CC979 /* PAULATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PAULATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F84168D5A21375230A4400 /* LLMProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMProvider.swift; sourceTree = "<group>"; };
+		2602ABF46AFA71EA5EFFDCC8 /* CueModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CueModel.swift; sourceTree = "<group>"; };
+		3B26A52BCF2CAF8A80AFD8D2 /* PAULAWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAULAWidget.swift; sourceTree = "<group>"; };
+		4FC1D50301FDC208B529F605 /* PAULAWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PAULAWidget.entitlements; sourceTree = "<group>"; };
+		613CCA600CCC95A29B2D9718 /* PAULA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PAULA.entitlements; sourceTree = "<group>"; };
+		6A234C3B7D0FDF4B3B86D08E /* RecordingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingModel.swift; sourceTree = "<group>"; };
+		6F0698F13A905898791DA930 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F0964EB45A025372A8B6045 /* RecordingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingViewModel.swift; sourceTree = "<group>"; };
+		7352544C67E757E9A7618FD9 /* StoreKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitService.swift; sourceTree = "<group>"; };
+		787655D78646C485638D2349 /* PAULAWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PAULAWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B16EB07988A21CBF61E0E7F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		8FEB59AAE66BC81031470E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		95DB512A67BC9CA99CD8F9A4 /* AudioAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioAnalyzer.swift; sourceTree = "<group>"; };
+		9822D92806D103032D3356B7 /* SpeakerDiarizationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerDiarizationService.swift; sourceTree = "<group>"; };
+		9EE608A449F9084406B705CF /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B002DCF96DD8EFF79A83DF2E /* DOCXExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOCXExporter.swift; sourceTree = "<group>"; };
+		B18DDBCE116E2702D728CD65 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		BCCB3A9CEA839D955514B4FE /* WidgetBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetBridge.swift; sourceTree = "<group>"; };
+		C6A41AC29EC05DF169895DC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C78956BACE281CE755F53DBE /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		CAE8E2DDEEDF77FC142B3D3C /* PAULAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAULAApp.swift; sourceTree = "<group>"; };
+		D4E487921251423CBEE1DE57 /* SummaryTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryTemplate.swift; sourceTree = "<group>"; };
+		E1FC81D79CDA895691B5A288 /* SummaryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryService.swift; sourceTree = "<group>"; };
+		E2AA6CA7CF493F6A7A5E252E /* RecordingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingDetailView.swift; sourceTree = "<group>"; };
+		F2B7DE50EC29F8A5467E49AF /* LLMClients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMClients.swift; sourceTree = "<group>"; };
+		F3C147176C39CB1D89BDF77C /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		FABC772FF475380AE1061320 /* PDFExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFExporter.swift; sourceTree = "<group>"; };
+		FC81BAE987136CB02A1120F0 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		FDB3451653F148A81945982B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F838AFB89C5D8236BE850FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E89DB5BC2A86D309D3EDD3B /* ZIPFoundation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09455026A3D648A20293CDAF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C6A41AC29EC05DF169895DC0 /* Assets.xcassets */,
+				FDB3451653F148A81945982B /* Info.plist */,
+				B18DDBCE116E2702D728CD65 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		178020176B56A45FBCAF13BF /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				100987B0F9080881ADD1C2C1 /* RecordingIntents.swift */,
+				BCCB3A9CEA839D955514B4FE /* WidgetBridge.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1902C37E3D8AAFD12DA7B870 /* PAULATests */ = {
+			isa = PBXGroup;
+			children = (
+				18DB35BD4FC03067301D4119 /* PAULATests.swift */,
+			);
+			path = PAULATests;
+			sourceTree = "<group>";
+		};
+		2432404662FB47214A2C141B /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				E2AA6CA7CF493F6A7A5E252E /* RecordingDetailView.swift */,
+				1CFDAC2BC28DB71FCE7A03D8 /* RecordingDetailViewModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		32118758A935C5F746A2CE5D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7352544C67E757E9A7618FD9 /* StoreKitService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3229D7C8702E2F8933B2B4B6 /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				07FE5A51B721F729BA922984 /* ActionItemService.swift */,
+				F2B7DE50EC29F8A5467E49AF /* LLMClients.swift */,
+				E1FC81D79CDA895691B5A288 /* SummaryService.swift */,
+			);
+			path = Summary;
+			sourceTree = "<group>";
+		};
+		33CEDC22B9DFF6C8EAC63B0C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				2432404662FB47214A2C141B /* Detail */,
+				9299F32D3A902456DE3EB3C7 /* Export */,
+				AD0D0B6740AE2BF761BAA0EE /* Library */,
+				828CE913160C3127643BF9FC /* Onboarding */,
+				9C3AA19B5A377F0A67166810 /* Recording */,
+				E7D4C261D5071A722D3E5115 /* Settings */,
+				3229D7C8702E2F8933B2B4B6 /* Summary */,
+				BABA2C78D028E0A0BAD05C0E /* Transcription */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		79AAD26BCB3C9E94069A36BB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6F0698F13A905898791DA930 /* ContentView.swift */,
+				CAE8E2DDEEDF77FC142B3D3C /* PAULAApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		828CE913160C3127643BF9FC /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				9EE608A449F9084406B705CF /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		9299F32D3A902456DE3EB3C7 /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				B002DCF96DD8EFF79A83DF2E /* DOCXExporter.swift */,
+				FABC772FF475380AE1061320 /* PDFExporter.swift */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		98F95184619D1567A632BB61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0686CCCAE8E3FBF6BCF49FD8 /* PAULA.app */,
+				2460B6B59FE1CD74C59CC979 /* PAULATests.xctest */,
+				787655D78646C485638D2349 /* PAULAWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C3AA19B5A377F0A67166810 /* Recording */ = {
+			isa = PBXGroup;
+			children = (
+				05A8DAD26556DFC1C22B5D1A /* AudioEngine.swift */,
+				C78956BACE281CE755F53DBE /* RecordingView.swift */,
+				6F0964EB45A025372A8B6045 /* RecordingViewModel.swift */,
+			);
+			path = Recording;
+			sourceTree = "<group>";
+		};
+		AD0D0B6740AE2BF761BAA0EE /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				F3C147176C39CB1D89BDF77C /* LibraryView.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		B0BEDEE53A3E74139CD6DF2C = {
+			isa = PBXGroup;
+			children = (
+				E8F3AE31C68997CB39BC3AD1 /* PAULA */,
+				1902C37E3D8AAFD12DA7B870 /* PAULATests */,
+				D79108DE54E3126B77E373AD /* PAULAWidget */,
+				98F95184619D1567A632BB61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BABA2C78D028E0A0BAD05C0E /* Transcription */ = {
+			isa = PBXGroup;
+			children = (
+				95DB512A67BC9CA99CD8F9A4 /* AudioAnalyzer.swift */,
+				9822D92806D103032D3356B7 /* SpeakerDiarizationService.swift */,
+				1D835AD034C8190C3C595F1B /* TranscriptionService.swift */,
+			);
+			path = Transcription;
+			sourceTree = "<group>";
+		};
+		BD4A4E51144142F62F4965E2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FC81BAE987136CB02A1120F0 /* DesignSystem.swift */,
+				16151DDDD7F711A85B42CC58 /* KeychainService.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BE33B1EF4C4786D9C3038878 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2602ABF46AFA71EA5EFFDCC8 /* CueModel.swift */,
+				25F84168D5A21375230A4400 /* LLMProvider.swift */,
+				6A234C3B7D0FDF4B3B86D08E /* RecordingModel.swift */,
+				D4E487921251423CBEE1DE57 /* SummaryTemplate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D79108DE54E3126B77E373AD /* PAULAWidget */ = {
+			isa = PBXGroup;
+			children = (
+				8FEB59AAE66BC81031470E6D /* Info.plist */,
+				4FC1D50301FDC208B529F605 /* PAULAWidget.entitlements */,
+				3B26A52BCF2CAF8A80AFD8D2 /* PAULAWidget.swift */,
+			);
+			path = PAULAWidget;
+			sourceTree = "<group>";
+		};
+		E7D4C261D5071A722D3E5115 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7B16EB07988A21CBF61E0E7F /* SettingsView.swift */,
+				06CB49E4C1FB0B2A6FF57681 /* SubscriptionView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E8F3AE31C68997CB39BC3AD1 /* PAULA */ = {
+			isa = PBXGroup;
+			children = (
+				613CCA600CCC95A29B2D9718 /* PAULA.entitlements */,
+				79AAD26BCB3C9E94069A36BB /* App */,
+				33CEDC22B9DFF6C8EAC63B0C /* Features */,
+				BE33B1EF4C4786D9C3038878 /* Models */,
+				09455026A3D648A20293CDAF /* Resources */,
+				32118758A935C5F746A2CE5D /* Services */,
+				178020176B56A45FBCAF13BF /* Shared */,
+				BD4A4E51144142F62F4965E2 /* Utilities */,
+			);
+			path = PAULA;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		095A3A20AA1AE10392D6665D /* PAULAWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB9F18665928673AEA2E775 /* Build configuration list for PBXNativeTarget "PAULAWidget" */;
+			buildPhases = (
+				3C8406D7E6740C38E7D0C566 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PAULAWidget;
+			packageProductDependencies = (
+			);
+			productName = PAULAWidget;
+			productReference = 787655D78646C485638D2349 /* PAULAWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		37BFD288B524F5116B3523D1 /* PAULA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 084E40A2C4ED9026064205DC /* Build configuration list for PBXNativeTarget "PAULA" */;
+			buildPhases = (
+				BBA2F07C7CAC7F02CD10C9DE /* Sources */,
+				867DC9D7EE4A1A1EEFE16AB6 /* Resources */,
+				7F838AFB89C5D8236BE850FA /* Frameworks */,
+				7E692527EC5F554DD0A80246 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				153A35A02B9B85AA24CFB6B1 /* PBXTargetDependency */,
+			);
+			name = PAULA;
+			packageProductDependencies = (
+				529FF80FD0F24114A4E9F6B0 /* ZIPFoundation */,
+			);
+			productName = PAULA;
+			productReference = 0686CCCAE8E3FBF6BCF49FD8 /* PAULA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8098F0603EA68962BCDCA33D /* PAULATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 263D7DC335977558F39CF0DA /* Build configuration list for PBXNativeTarget "PAULATests" */;
+			buildPhases = (
+				7499CFD249DE91B51417C7F0 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83DC21BA6D81BDA66862F117 /* PBXTargetDependency */,
+			);
+			name = PAULATests;
+			packageProductDependencies = (
+			);
+			productName = PAULATests;
+			productReference = 2460B6B59FE1CD74C59CC979 /* PAULATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B82E36508BBD58B00333C243 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					095A3A20AA1AE10392D6665D = {
+						ProvisioningStyle = Automatic;
+					};
+					37BFD288B524F5116B3523D1 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 731B2EDFEEE5B38436108CE9 /* Build configuration list for PBXProject "PAULA" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B0BEDEE53A3E74139CD6DF2C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F8DD32675B43688EEEBC36A3 /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 98F95184619D1567A632BB61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37BFD288B524F5116B3523D1 /* PAULA */,
+				8098F0603EA68962BCDCA33D /* PAULATests */,
+				095A3A20AA1AE10392D6665D /* PAULAWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		867DC9D7EE4A1A1EEFE16AB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC4590717AC056EC01B02F3 /* Assets.xcassets in Resources */,
+				52D3D9E10B35FCD10531F82D /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C8406D7E6740C38E7D0C566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB64517145D4271D1A88C6A4 /* PAULAWidget.swift in Sources */,
+				48C97169A578A074B032E181 /* RecordingIntents.swift in Sources */,
+				17DAB09E1D1BE85B35C4BC18 /* WidgetBridge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7499CFD249DE91B51417C7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B76F227BEFBC6D4E5F19D0 /* PAULATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA2F07C7CAC7F02CD10C9DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854C33A251337EC6081E88B7 /* ActionItemService.swift in Sources */,
+				0E76B54B56B9242B9D75D57E /* AudioAnalyzer.swift in Sources */,
+				858FFD3611C94E13DEDEE9A8 /* AudioEngine.swift in Sources */,
+				C5720333E5DD47F4638948BA /* ContentView.swift in Sources */,
+				2B39899BE3EC1BB622B054FF /* CueModel.swift in Sources */,
+				9C01410098F19A2693FFC4EC /* DOCXExporter.swift in Sources */,
+				C07021E8B156050D0AD42D40 /* DesignSystem.swift in Sources */,
+				B76F064DD12AF23C8BBF3452 /* KeychainService.swift in Sources */,
+				279E83EC06F4F7F03FFFEC6B /* LLMClients.swift in Sources */,
+				A05474F6396087A42EB9BEAE /* LLMProvider.swift in Sources */,
+				405DA7B388137ED0A8E51518 /* LibraryView.swift in Sources */,
+				C45AC07D2E8FA6BDE7018925 /* OnboardingView.swift in Sources */,
+				5DB64602095F4FDFE7384C3E /* PAULAApp.swift in Sources */,
+				15014FAAC340C688646F6B85 /* PDFExporter.swift in Sources */,
+				762D4919FBB960B5AEA95D83 /* RecordingDetailView.swift in Sources */,
+				0B9C19830348F9632CA14C06 /* RecordingDetailViewModel.swift in Sources */,
+				EC5464651FAFDE75BDF38F84 /* RecordingIntents.swift in Sources */,
+				D0527B97BA00D3EEFC3294E0 /* RecordingModel.swift in Sources */,
+				AE8A6DD33AB397C43565C50B /* RecordingView.swift in Sources */,
+				EB151DE286FAF040EAA327EF /* RecordingViewModel.swift in Sources */,
+				BFAE451B47206DB7460CCB0B /* SettingsView.swift in Sources */,
+				98C7438BFF2D7E80D9835F5E /* SpeakerDiarizationService.swift in Sources */,
+				BF93B504EF55FEE0E88069E5 /* StoreKitService.swift in Sources */,
+				1D46AA27569911D586873BF1 /* SubscriptionView.swift in Sources */,
+				12E16B7748EC4325903B9360 /* SummaryService.swift in Sources */,
+				DA25C4AAF0B9C90D41A83139 /* SummaryTemplate.swift in Sources */,
+				FFCDC0B2E9C232465561C82C /* TranscriptionService.swift in Sources */,
+				82BB6341EACF336E78F6BC72 /* WidgetBridge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		153A35A02B9B85AA24CFB6B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 095A3A20AA1AE10392D6665D /* PAULAWidget */;
+			targetProxy = DFC6F5825A902AC0C156D943 /* PBXContainerItemProxy */;
+		};
+		83DC21BA6D81BDA66862F117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37BFD288B524F5116B3523D1 /* PAULA */;
+			targetProxy = DC34EE3E07D214624BA405D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1797F9286795D260C914A811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PAULA/PAULA.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3P749245R;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = PAULA/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paula.app;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5357804431F8410795521D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J3P749245R;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paula.PAULATests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PAULA.app/PAULA";
+			};
+			name = Debug;
+		};
+		6C45D75CBF50B7CEBEC5F681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J3P749245R;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paula.PAULATests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PAULA.app/PAULA";
+			};
+			name = Release;
+		};
+		7E53E77D2C9FC213A7505056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PAULA/PAULA.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3P749245R;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = PAULA/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paula.app;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E519B4234915A1158128453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9C8DC47CCC960DF38D35B32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PAULAWidget/PAULAWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3P749245R;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = PAULAWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paula.app.widget;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4FC0FBDD3A96BAC8AD3E195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FBA7B353F40ADF167F535904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PAULAWidget/PAULAWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3P749245R;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = PAULAWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paula.app.widget;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		084E40A2C4ED9026064205DC /* Build configuration list for PBXNativeTarget "PAULA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1797F9286795D260C914A811 /* Debug */,
+				7E53E77D2C9FC213A7505056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		263D7DC335977558F39CF0DA /* Build configuration list for PBXNativeTarget "PAULATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5357804431F8410795521D27 /* Debug */,
+				6C45D75CBF50B7CEBEC5F681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		731B2EDFEEE5B38436108CE9 /* Build configuration list for PBXProject "PAULA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4FC0FBDD3A96BAC8AD3E195 /* Debug */,
+				8E519B4234915A1158128453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8CB9F18665928673AEA2E775 /* Build configuration list for PBXNativeTarget "PAULAWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8DC47CCC960DF38D35B32E /* Debug */,
+				FBA7B353F40ADF167F535904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F8DD32675B43688EEEBC36A3 /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.19;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		529FF80FD0F24114A4E9F6B0 /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8DD32675B43688EEEBC36A3 /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B82E36508BBD58B00333C243 /* Project object */;
+}

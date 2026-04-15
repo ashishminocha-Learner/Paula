@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PAULA — Privacy Policy & Terms of Use</title>
+  <style>
+    :root {
+      --bg:       #0d1128;
+      --bg2:      #141830;
+      --border:   rgba(255,255,255,0.08);
+      --blue:     #4a7fff;
+      --cyan:     #5ec8ff;
+      --red:      #ff3b5c;
+      --text:     rgba(255,255,255,0.88);
+      --muted:    rgba(255,255,255,0.45);
+      --card:     rgba(255,255,255,0.05);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    /* ── Header ── */
+    header {
+      background: linear-gradient(135deg, #16204a 0%, #0a0f26 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 56px 24px 40px;
+      text-align: center;
+    }
+
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 72px; height: 72px;
+      background: linear-gradient(135deg, var(--blue), var(--cyan));
+      border-radius: 20px;
+      margin-bottom: 20px;
+      font-size: 36px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      color: var(--muted);
+      margin-top: 8px;
+      font-size: 0.95rem;
+    }
+
+    /* ── Nav ── */
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      padding: 20px 24px;
+      background: var(--bg2);
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: var(--blue);
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 500;
+      padding: 6px 14px;
+      border-radius: 20px;
+      background: rgba(74,127,255,0.10);
+      transition: background 0.15s;
+    }
+
+    nav a:hover { background: rgba(74,127,255,0.20); }
+
+    /* ── Layout ── */
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 24px 96px;
+    }
+
+    /* ── Section headers ── */
+    .doc-title {
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 4px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .effective {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--cyan);
+      margin: 36px 0 10px;
+      letter-spacing: 0.3px;
+    }
+
+    h3 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text);
+      margin: 20px 0 6px;
+    }
+
+    p { margin-bottom: 12px; color: var(--text); }
+
+    ul, ol {
+      padding-left: 20px;
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+
+    li { margin-bottom: 6px; }
+
+    /* ── Callout cards ── */
+    .callout {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--blue);
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin: 20px 0;
+      font-size: 0.93rem;
+    }
+
+    .callout.green  { border-left-color: #30d158; }
+    .callout.yellow { border-left-color: #ffd60a; }
+    .callout.red    { border-left-color: var(--red); }
+
+    .callout strong { display: block; margin-bottom: 4px; }
+
+    /* ── Divider between documents ── */
+    .doc-divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 64px 0;
+    }
+
+    /* ── Table ── */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 0.9rem;
+    }
+
+    th {
+      text-align: left;
+      color: var(--muted);
+      font-weight: 600;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    td {
+      padding: 10px 12px;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+      vertical-align: top;
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.82rem;
+      padding: 32px 24px;
+      border-top: 1px solid var(--border);
+    }
+
+    footer a { color: var(--blue); text-decoration: none; }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.5rem; }
+      .doc-title { font-size: 1.3rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ────────────────────────────────────── HEADER -->
+<header>
+  <div class="logo">🎙️</div>
+  <h1>PAULA</h1>
+  <p>AI Voice Recorder &amp; Meeting Summarizer</p>
+</header>
+
+<!-- ────────────────────────────────────── NAV -->
+<nav>
+  <a href="#privacy">Privacy Policy</a>
+  <a href="#terms">Terms of Use</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+<!-- ════════════════════════════════════════════════
+     PRIVACY POLICY
+════════════════════════════════════════════════ -->
+<section id="privacy">
+
+  <h1 class="doc-title">Privacy Policy</h1>
+  <p class="effective">Effective date: April 15, 2025 &nbsp;·&nbsp; Last updated: April 15, 2025</p>
+
+  <div class="callout green">
+    <strong>The short version</strong>
+    Your recordings and transcripts stay on your device. PAULA does not collect,
+    store, or sell your personal data. When you choose to use third-party AI APIs
+    (Whisper, Claude, Groq, Gemini), your content is sent directly to those
+    providers under their own privacy terms — PAULA never sees it.
+  </div>
+
+  <h2>1. Who We Are</h2>
+  <p>
+    PAULA is an iOS application developed and operated by Ashish Minocha
+    ("we", "us", or "our"). If you have questions about this policy, contact us at
+    <a href="mailto:hello@paula.app" style="color:var(--blue)">hello@paula.app</a>.
+  </p>
+
+  <h2>2. Data We Collect</h2>
+  <p>PAULA is designed to collect as little data as possible.</p>
+
+  <h3>2.1 Data stored only on your device</h3>
+  <ul>
+    <li><strong>Audio recordings</strong> — saved locally in your app's private container. Never uploaded by PAULA.</li>
+    <li><strong>Transcripts and summaries</strong> — generated and stored on-device using SwiftData.</li>
+    <li><strong>App preferences</strong> — settings such as your chosen AI provider, stored in UserDefaults on-device.</li>
+    <li><strong>API keys</strong> — stored exclusively in the iOS Keychain on your device. Never transmitted to PAULA's servers (we have no servers).</li>
+  </ul>
+
+  <h3>2.2 Data we do not collect</h3>
+  <ul>
+    <li>We do not collect your name, email address, or any account information.</li>
+    <li>We do not use analytics SDKs or crash-reporting services.</li>
+    <li>We do not use advertising identifiers (IDFA).</li>
+    <li>We do not track you across other apps or websites.</li>
+  </ul>
+
+  <h2>3. Third-Party AI Services</h2>
+  <p>
+    PAULA optionally connects to third-party AI APIs that you configure with your
+    own API key. When you use these services, your audio or transcript is sent
+    directly from your device to the respective provider. PAULA does not act as
+    an intermediary and never stores this data.
+  </p>
+
+  <table>
+    <tr>
+      <th>Service</th>
+      <th>What is sent</th>
+      <th>Privacy policy</th>
+    </tr>
+    <tr>
+      <td>OpenAI Whisper API</td>
+      <td>Audio file (when Whisper transcription is enabled)</td>
+      <td><a href="https://openai.com/policies/privacy-policy" style="color:var(--blue)" target="_blank">openai.com</a></td>
+    </tr>
+    <tr>
+      <td>Anthropic Claude</td>
+      <td>Transcript text (for summarization)</td>
+      <td><a href="https://www.anthropic.com/privacy" style="color:var(--blue)" target="_blank">anthropic.com</a></td>
+    </tr>
+    <tr>
+      <td>Groq</td>
+      <td>Transcript text (for summarization)</td>
+      <td><a href="https://groq.com/privacy-policy/" style="color:var(--blue)" target="_blank">groq.com</a></td>
+    </tr>
+    <tr>
+      <td>Google Gemini</td>
+      <td>Transcript text (for summarization)</td>
+      <td><a href="https://policies.google.com/privacy" style="color:var(--blue)" target="_blank">google.com</a></td>
+    </tr>
+    <tr>
+      <td>Apple Speech Recognition</td>
+      <td>Audio (on-device; may be sent to Apple for model improvement if you consent)</td>
+      <td><a href="https://www.apple.com/legal/privacy/" style="color:var(--blue)" target="_blank">apple.com</a></td>
+    </tr>
+  </table>
+
+  <div class="callout yellow">
+    <strong>Your responsibility</strong>
+    You are responsible for reviewing and accepting the privacy policies of any
+    third-party service whose API key you add to PAULA. We recommend not recording
+    confidential conversations using cloud-based AI services unless you have
+    reviewed their data handling practices.
+  </div>
+
+  <h2>4. Permissions We Request</h2>
+  <table>
+    <tr>
+      <th>Permission</th>
+      <th>Why</th>
+    </tr>
+    <tr>
+      <td>Microphone</td>
+      <td>Required to record audio. Recording only begins when you tap the Record button.</td>
+    </tr>
+    <tr>
+      <td>Speech Recognition</td>
+      <td>Used for on-device transcription via Apple's Speech framework. Optional — you can use Whisper API instead.</td>
+    </tr>
+  </table>
+
+  <h2>5. Data Retention & Deletion</h2>
+  <p>
+    All recordings, transcripts, and summaries are stored locally on your device.
+    You can delete individual recordings at any time from the Library screen, or
+    delete everything at once via Settings → Delete All Recordings.
+    Uninstalling PAULA removes all locally stored data.
+  </p>
+
+  <h2>6. Children's Privacy</h2>
+  <p>
+    PAULA is not directed at children under 13. We do not knowingly collect any
+    information from children. If you believe a child has used PAULA in a way
+    that raises privacy concerns, please contact us.
+  </p>
+
+  <h2>7. Your Rights</h2>
+  <p>
+    Because we do not collect or store your personal data on any server, there is
+    no data held by us to access, correct, or delete. All data is on your device
+    and entirely under your control.
+  </p>
+  <p>
+    If you are located in the European Economic Area (EEA) or the UK, you have
+    rights under GDPR. If you are a California resident, you have rights under
+    CCPA. In both cases, the relevant data is stored exclusively on your own
+    device — please use the in-app deletion tools to exercise those rights.
+  </p>
+
+  <h2>8. Security</h2>
+  <p>
+    API keys are stored in the iOS Keychain with
+    <code style="background:var(--card);padding:2px 6px;border-radius:4px;font-size:0.85em">kSecAttrAccessibleWhenUnlockedThisDeviceOnly</code>
+    protection — they cannot be extracted by other apps or backed up to iCloud.
+    Audio files are stored in the app's private sandbox, inaccessible to other apps.
+  </p>
+
+  <h2>9. Changes to This Policy</h2>
+  <p>
+    We may update this privacy policy from time to time. The "Last updated" date
+    at the top of this page reflects when changes were made. Continued use of
+    PAULA after changes are posted constitutes your acceptance of the revised policy.
+  </p>
+
+</section>
+
+<hr class="doc-divider" />
+
+<!-- ════════════════════════════════════════════════
+     TERMS OF USE
+════════════════════════════════════════════════ -->
+<section id="terms">
+
+  <h1 class="doc-title">Terms of Use</h1>
+  <p class="effective">Effective date: April 15, 2025 &nbsp;·&nbsp; Last updated: April 15, 2025</p>
+
+  <div class="callout">
+    <strong>Please read these terms before using PAULA</strong>
+    By downloading or using PAULA, you agree to be bound by these Terms of Use.
+    If you do not agree, please do not use the app.
+  </div>
+
+  <h2>1. The App</h2>
+  <p>
+    PAULA ("the App") is an iOS application that provides voice recording,
+    on-device transcription, and AI-assisted summarization. It is developed
+    and operated by Ashish Minocha ("Developer", "we", "us").
+  </p>
+
+  <h2>2. License</h2>
+  <p>
+    We grant you a personal, non-exclusive, non-transferable, revocable license
+    to use PAULA on any Apple device you own or control, subject to the App Store
+    Terms of Service and these Terms of Use.
+  </p>
+  <p>You may not:</p>
+  <ul>
+    <li>Copy, modify, or distribute the App or any portion of it</li>
+    <li>Reverse engineer, decompile, or disassemble the App</li>
+    <li>Rent, lease, or lend the App to any third party</li>
+    <li>Use the App to build a competing product or service</li>
+  </ul>
+
+  <h2>3. Your Responsibilities</h2>
+
+  <h3>3.1 Recording consent</h3>
+  <p>
+    You are solely responsible for complying with all applicable laws regarding
+    recording conversations in your jurisdiction. Many jurisdictions require the
+    consent of all parties being recorded. It is your responsibility to obtain
+    any necessary consent before recording any conversation.
+  </p>
+
+  <div class="callout red">
+    <strong>Important</strong>
+    Recording people without their knowledge or consent may be illegal in your
+    jurisdiction. PAULA is intended for lawful use only. We are not responsible
+    for any legal consequences arising from how you use the recording functionality.
+  </div>
+
+  <h3>3.2 API keys</h3>
+  <p>
+    If you choose to use third-party AI services (OpenAI, Anthropic, Groq,
+    Google), you must provide your own API key and comply with the terms of
+    service of those providers. You are responsible for all charges incurred
+    through your API key usage. Keep your API keys confidential.
+  </p>
+
+  <h3>3.3 Content</h3>
+  <p>
+    You retain ownership of all recordings, transcripts, and summaries created
+    with PAULA. You agree not to use PAULA to record, transcribe, or summarize
+    content that is illegal, harmful, defamatory, or infringes third-party rights.
+  </p>
+
+  <h2>4. Third-Party Services</h2>
+  <p>
+    PAULA integrates with third-party AI services at your option. These services
+    are governed by their own terms and privacy policies. We are not responsible
+    for the availability, accuracy, or conduct of these services. Your use of
+    third-party APIs is at your own risk.
+  </p>
+
+  <h2>5. Disclaimer of Warranties</h2>
+  <p>
+    PAULA is provided "as is" and "as available" without warranties of any kind,
+    either express or implied, including but not limited to warranties of
+    merchantability, fitness for a particular purpose, or non-infringement.
+  </p>
+  <p>
+    We do not warrant that: (a) the App will be uninterrupted or error-free;
+    (b) transcriptions or summaries will be accurate or complete; (c) any defects
+    will be corrected; or (d) the App or its servers are free of viruses or other
+    harmful components.
+  </p>
+  <p>
+    Transcription and summarization are AI-assisted and may contain errors.
+    Do not rely solely on PAULA's output for legal, medical, financial, or
+    other critical decisions.
+  </p>
+
+  <h2>6. Limitation of Liability</h2>
+  <p>
+    To the maximum extent permitted by applicable law, the Developer shall not
+    be liable for any indirect, incidental, special, consequential, or punitive
+    damages, including loss of data, loss of revenue, or loss of business, arising
+    out of or in connection with your use of PAULA, even if advised of the
+    possibility of such damages.
+  </p>
+  <p>
+    Our total liability to you for any claim arising out of or relating to these
+    Terms or PAULA shall not exceed the amount you paid for the App in the twelve
+    months preceding the claim (which, if the App was free, is zero).
+  </p>
+
+  <h2>7. Intellectual Property</h2>
+  <p>
+    PAULA and its original content, features, and functionality are owned by
+    the Developer and are protected by applicable intellectual property laws.
+    "PAULA" and associated branding are proprietary to the Developer.
+  </p>
+
+  <h2>8. Termination</h2>
+  <p>
+    We may terminate or suspend your access to PAULA at any time, without notice,
+    for conduct that we believe violates these Terms or is harmful to other users,
+    us, or third parties. Upon termination, your license to use the App ends
+    immediately.
+  </p>
+
+  <h2>9. Governing Law</h2>
+  <p>
+    These Terms are governed by and construed in accordance with the laws of India,
+    without regard to its conflict of law provisions. Any disputes arising under
+    these Terms shall be subject to the exclusive jurisdiction of the courts located
+    in India.
+  </p>
+
+  <h2>10. Apple's Role</h2>
+  <p>
+    These Terms are between you and the Developer only, not with Apple Inc.
+    Apple is not responsible for PAULA or its content. Apple has no obligation
+    to provide any maintenance or support for PAULA. In the event of any failure
+    to conform to any applicable warranty, you may notify Apple and Apple will
+    refund the purchase price (if applicable). Apple has no other warranty
+    obligation with respect to PAULA.
+  </p>
+
+  <h2>11. Changes to These Terms</h2>
+  <p>
+    We reserve the right to modify these Terms at any time. We will update the
+    "Last updated" date above when changes are made. Your continued use of PAULA
+    after changes are posted constitutes your acceptance of the revised Terms.
+  </p>
+
+  <h2>12. Entire Agreement</h2>
+  <p>
+    These Terms, together with the Privacy Policy above, constitute the entire
+    agreement between you and the Developer regarding PAULA and supersede all
+    prior agreements and understandings.
+  </p>
+
+</section>
+
+<!-- ════════════════════════════════════════════════
+     CONTACT
+════════════════════════════════════════════════ -->
+<section id="contact" style="margin-top:64px">
+  <h2 style="color:var(--blue)">Contact</h2>
+  <p>
+    Questions about these policies? Reach us at:<br/>
+    <a href="mailto:hello@paula.app" style="color:var(--blue)">hello@paula.app</a>
+  </p>
+  <p style="color:var(--muted);font-size:0.875rem;margin-top:8px">
+    We aim to respond within 48 hours on business days.
+  </p>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2025 PAULA · <a href="#privacy">Privacy Policy</a> · <a href="#terms">Terms of Use</a></p>
+  <p style="margin-top:6px">Made with ♥ in India</p>
+</footer>
+
+</body>
+</html>
