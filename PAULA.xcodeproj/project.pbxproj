@@ -78,7 +78,7 @@
 
 /* Begin PBXFileReference section */
 		05A8DAD26556DFC1C22B5D1A /* AudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
-		0686CCCAE8E3FBF6BCF49FD8 /* PAULA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PAULA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0686CCCAE8E3FBF6BCF49FD8 /* PAULA.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PAULA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06CB49E4C1FB0B2A6FF57681 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
 		07FE5A51B721F729BA922984 /* ActionItemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionItemService.swift; sourceTree = "<group>"; };
 		100987B0F9080881ADD1C2C1 /* RecordingIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingIntents.swift; sourceTree = "<group>"; };
@@ -96,14 +96,14 @@
 		6F0698F13A905898791DA930 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6F0964EB45A025372A8B6045 /* RecordingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingViewModel.swift; sourceTree = "<group>"; };
 		7352544C67E757E9A7618FD9 /* StoreKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitService.swift; sourceTree = "<group>"; };
-		787655D78646C485638D2349 /* PAULAWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PAULAWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		787655D78646C485638D2349 /* PAULAWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = PAULAWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B16EB07988A21CBF61E0E7F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		8FEB59AAE66BC81031470E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		95DB512A67BC9CA99CD8F9A4 /* AudioAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioAnalyzer.swift; sourceTree = "<group>"; };
 		9822D92806D103032D3356B7 /* SpeakerDiarizationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerDiarizationService.swift; sourceTree = "<group>"; };
 		9EE608A449F9084406B705CF /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		B002DCF96DD8EFF79A83DF2E /* DOCXExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOCXExporter.swift; sourceTree = "<group>"; };
-		B18DDBCE116E2702D728CD65 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B18DDBCE116E2702D728CD65 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		BCCB3A9CEA839D955514B4FE /* WidgetBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetBridge.swift; sourceTree = "<group>"; };
 		C6A41AC29EC05DF169895DC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C78956BACE281CE755F53DBE /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
@@ -397,9 +397,11 @@
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					095A3A20AA1AE10392D6665D = {
+						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
 					};
 					37BFD288B524F5116B3523D1 = {
+						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -517,8 +519,8 @@
 				CODE_SIGN_ENTITLEMENTS = PAULA/PAULA.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J3P749245R;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = PAULA/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -578,8 +580,8 @@
 				CODE_SIGN_ENTITLEMENTS = PAULA/PAULA.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J3P749245R;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = PAULA/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -658,7 +660,7 @@
 				CODE_SIGN_ENTITLEMENTS = PAULAWidget/PAULAWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J3P749245R;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = PAULAWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -745,7 +747,7 @@
 				CODE_SIGN_ENTITLEMENTS = PAULAWidget/PAULAWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J3P749245R;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = PAULAWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
